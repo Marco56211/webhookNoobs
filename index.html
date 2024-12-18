@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Example</title>
+    <style>
+      /* Optional: Add some basic styling */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      button {
+        background-color: #4caf50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Navigate to Webhook Example</h1>
+    <button onclick="navigateToWebhook()">Go to Webhook</button>
+
+    <script>
+      function navigateToWebhook() {
+        // Navigate to the /webhook route
+        window.location.href = "/webhook";
+      }
+    </script>
+  </body>
+</html>
